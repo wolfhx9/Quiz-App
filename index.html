@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Quiz App">
+    <meta name="keywords" content="Quiz App,Quiz,App">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <title>Quiz App</title>
+</head>
+<body>
+    
+    <div class="app">
+        <h1 id="title">
+            Simple Quiz
+            <span>
+                <select name="lan" id="lan">
+                    <option value="en">En</option>
+                    <option value="ar">Ar</option>
+                </select>
+            </span>
+        </h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
